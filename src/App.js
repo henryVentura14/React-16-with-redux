@@ -4,8 +4,8 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
 import { Provider } from 'react-redux'
 import store from './store'
-import Quantity from './components/quantity'
-import Buy from './components/buy'
+// import Quantity from './components/quantity'
+// import Buy from './components/buy'
 import Search from './components/search'
 import ResultSearch from './components/resultSearch'
 
@@ -14,7 +14,7 @@ function App () {
     <Provider store={store}>
       <div className='App'>
         <div className='row'>
-          <div className='col-12'>
+          {/* <div className='col-12'>
             <div className='card mt-5' style={{ maxWidth: '370px' }}>
               <div className='row no-gutters'>
                 <div className='col-4'>
@@ -34,7 +34,7 @@ function App () {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className='col-12 mt-4 border-top pt-3'>
             <Search />
           </div>
