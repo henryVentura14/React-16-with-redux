@@ -13,4 +13,4 @@ npm run start
 ```
 
 ## Captures
-![GitHub Logo](./images/screen.png)
+![GitHub Logo](./src/images/screen.png)
